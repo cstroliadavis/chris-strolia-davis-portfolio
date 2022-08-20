@@ -1,19 +1,29 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Chris Strolia-Davis Portfolio",
+  "name": "Christopher Strolia-Davis Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "9-2-resume-picture_32x32.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
     },
     {
-      "src": "logo512.png",
+      "src": "9-2-resume-picture_48x48.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "9-2-resume-picture_64x64.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "9-2-resume-picture.png",
       "type": "image/png",
       "sizes": "512x512"
     }
