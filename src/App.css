@@ -118,7 +118,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 705px) {
   .App > header {
     height: auto;
     position: relative;
@@ -130,6 +130,7 @@ body {
 
   .view-nav-toggle {
     display: flex;
+    margin-top: 2rem;
   }
 
   .nav-bar {
@@ -137,9 +138,14 @@ body {
     flex-direction: column;
   }
 
+  .nav-bar.menu-visible {
+    height: auto;
+  }
+
   .portfolio-owner {
     margin-bottom: auto;
-    margin-top: auto;
+    margin-top: 1rem;
+    min-height: 2.5rem;
   }
 
   .menu-items {
@@ -159,7 +165,7 @@ body {
     padding: .75rem 1rem;
   }
 
-  .menu-items.visible {
+  .nav-bar.menu-visible .menu-items {
     display: block;
   }
 }
