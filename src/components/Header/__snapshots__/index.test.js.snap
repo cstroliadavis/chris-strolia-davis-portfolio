@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches snapshot 1`] = `
+<DocumentFragment>
+  <header>
+    <nav
+      class="nav-bar"
+    >
+      <div
+        class="portfolio-owner"
+      >
+        Chris Strolia-Davis
+      </div>
+      <div
+        class="view-nav-toggle"
+      >
+        <span
+          class="line"
+        />
+        <span
+          class="line"
+        />
+        <span
+          class="line"
+        />
+      </div>
+      <div
+        class="menu-items"
+      >
+        <ul>
+          <li>
+            <a
+              href="#"
+            >
+              About me
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Portfolio"
+            >
+              Portfolio
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Contact"
+            >
+              Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Resume"
+            >
+              Résumé
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+</DocumentFragment>
+`;

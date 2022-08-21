@@ -1,33 +1,44 @@
 :root {
-  --header-height: 100px;
+  --header-height: 80px;
   --footer-height: 60px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-  position:relative;
-  width: 100%;
   height: 100%;
   margin-bottom: -5px;
+  position:relative;
+  text-align: center;
+  width: 100%;
 }
 
 .App > header {
-  align-items: center;
-  background-color: #4e62a6;
+  background-size: auto;
+  background: #4e62a6 url('./assets/img/tech-background-xresch.png');
   color: white;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   height: var(--header-height);
   justify-content: center;
+  padding: 10px;
   position:fixed;
+  text-align: left;
   top:0;
   width: 100%;
 }
 
 .App > main {
-  padding-top: calc(var(--header-height) + 5px);
   padding-bottom: calc(var(--footer-height) + 5px);
+  padding-top: calc(var(--header-height) + 5px);
 }
 
 .App > footer {
@@ -44,4 +55,107 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.nav-bar {
+  align-items: center;
+  background-color: #113a3b;
+  color: white;
+  display: flex;
+  height: 4rem;
+  justify-content: space-between;
+  opacity: .75;
+}
+
+.portfolio-owner {
+  font-size: 1.5rem;
+  margin: .5rem
+}
+
+.menu-items > ul {
+  display: flex;
+  margin:0;
+  padding:0;
+}
+
+.menu-items > ul > li {
+  list-style: none;
+}
+
+.menu-items > ul > li:hover {
+  background-color: #185152;
+}
+
+.menu-items > ul > li > a {
+  color: white;
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.view-nav-toggle {
+  display: none;
+  flex-direction: column;
+  height: 21px;
+  justify-content: space-between;
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 30px;
+}
+
+.view-nav-toggle > .line {
+  background-color: white;
+  border-radius: 10px;
+  height: 3px;
+  width: 100%;
+}
+
+@media (max-width: 700px) {
+  .App > header {
+    height: auto;
+    position: relative;
+  }
+
+  .App > main {
+    padding-top: 5px;
+  }
+
+  .view-nav-toggle {
+    display: flex;
+  }
+
+  .nav-bar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .portfolio-owner {
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+
+  .menu-items {
+    display: none;
+    width: 100%;
+  }
+
+  .menu-items > ul {
+    flex-direction: column;
+  }
+
+  .menu-items > ul > li {
+    text-align: center;
+  }
+
+  .menu-items > ul > li > a {
+    padding: .75rem 1rem;
+  }
+
+  .menu-items.visible {
+    display: block;
+  }
 }
