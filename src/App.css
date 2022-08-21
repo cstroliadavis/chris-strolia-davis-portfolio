@@ -34,6 +34,7 @@ body {
   text-align: left;
   top:0;
   width: 100%;
+  z-index: 200;
 }
 
 .App > .section {
@@ -98,16 +99,16 @@ body {
 }
 
 .view-nav-toggle {
+  bottom: 0;
   display: none;
   flex-direction: column;
   height: 21px;
   justify-content: space-between;
+  margin-bottom: auto;
+  margin-top: auto;
   position: absolute;
   right: 1rem;
   top: 0;
-  bottom: 0;
-  margin-top: auto;
-  margin-bottom: auto;
   width: 30px;
 }
 

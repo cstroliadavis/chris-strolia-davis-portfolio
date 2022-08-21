@@ -1,7 +1,9 @@
 import About from "./About";
+import Portfolio from "./Portfolio";
 
 const sections = {
-  about: About
+  about: About,
+  portfolio: Portfolio,
 }
 
 export default function Section({ currentSection }) {
@@ -12,8 +14,8 @@ export default function Section({ currentSection }) {
   const View = sections[currentSection.name] ?? Default;
 
   return (
-    <main className={`section ${currentSection.name}`}>
-      <View />
+    <main className={ `section ${ currentSection.name }` }>
+      <View/>
     </main>
   );
 }

@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="app-list"
+    >
+      <div
+        class="app-card"
+      >
+        <h1
+          class="title"
+        >
+          Stuff
+        </h1>
+        <div
+          class="app-ref"
+        >
+          <a
+            href="https://app-url.com"
+            target="_blank"
+          >
+            <img
+              alt="Stuff"
+              src="https://image-url.com"
+            />
+          </a>
+        </div>
+        <div
+          class="repo"
+        >
+          <a
+            href="https://githb-url.com"
+            target="_blank"
+          >
+            See the code
+          </a>
+        </div>
+        <div
+          class="app-description"
+        >
+          <a
+            href="https://app-url.com"
+            target="_blank"
+          >
+            Things
+          </a>
+        </div>
+      </div>
+      <div
+        class="app-card"
+      >
+        <h1
+          class="title"
+        >
+          Mo Stuff
+        </h1>
+        <div
+          class="app-ref"
+        >
+          <a
+            href="https://app-url.com/mo"
+            target="_blank"
+          >
+            <img
+              alt="Mo Stuff"
+              src="https://image-url.com/mo-stuff.png"
+            />
+          </a>
+        </div>
+        <div
+          class="repo"
+        >
+          <a
+            href="https://githb-url.com/mo"
+            target="_blank"
+          >
+            See the code
+          </a>
+        </div>
+        <div
+          class="app-description"
+        >
+          <a
+            href="https://app-url.com/mo"
+            target="_blank"
+          >
+            Mo Things
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Portfolio shows a spinner while it waits 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <img
+      src="loading-gif.gif"
+    />
+  </div>
+</DocumentFragment>
+`;

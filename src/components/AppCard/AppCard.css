@@ -1,0 +1,59 @@
+.app-card {
+    background-color: #98c4c5;
+    filter: drop-shadow(.5rem .5rem 3px #5d5d5d);
+    margin: 1rem;
+    outline: thin solid black;
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+}
+
+.app-card .app-ref img {
+    aspect-ratio: 19 / 9;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.app-card .repo {
+    margin-top: .5rem;
+}
+
+.app-card .repo a {
+    background-color: white;
+    color: black;
+    display: block;
+    outline: thin solid black;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.app-card > .app-description {
+    background-color: white;
+    display: none;
+    filter: drop-shadow(.5rem .5rem 3px #343434);
+    left: 4rem;
+    margin: -5px;
+    max-height: inherit;
+    min-height: 50%;
+    opacity: .75;
+    outline: thin solid black;
+    position: absolute;
+    top: 4rem;
+    width: 75%;
+    z-index: 1;
+}
+
+.app-card > .app-description > a {
+    bottom: 0;
+    color: black;
+    left: 0;
+    padding: 25px 5px 5px;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+}
+
+.app-card:hover > .app-description {
+    display: block;
+}

@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppCard matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="app-card"
+  >
+    <h1
+      class="title"
+    >
+      A Title
+    </h1>
+    <div
+      class="app-ref"
+    >
+      <a
+        href="https://location.app.com"
+        target="_blank"
+      >
+        <img
+          alt="A Title"
+          src="https://image.app.com/some-image.jpg"
+        />
+      </a>
+    </div>
+    <div
+      class="repo"
+    >
+      <a
+        href="https://github.com/location/app"
+        target="_blank"
+      >
+        See the code
+      </a>
+    </div>
+    <div
+      class="app-description"
+    >
+      <a
+        href="https://location.app.com"
+        target="_blank"
+      >
+        One of the things I worked on
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
