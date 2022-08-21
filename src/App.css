@@ -36,9 +36,9 @@ body {
   width: 100%;
 }
 
-.App > main {
-  padding-bottom: calc(var(--footer-height) + 5px);
-  padding-top: calc(var(--header-height) + 5px);
+.App > .section {
+  padding-bottom: calc(var(--footer-height) + 20px);
+  padding-top: calc(var(--header-height) + 20px);
 }
 
 .App > footer {

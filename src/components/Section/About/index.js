@@ -1,0 +1,25 @@
+import './About.css';
+import portrait from '../../../assets/img/CSD-Profile.png';
+
+export default function About() {
+  return (
+    <>
+      <img src={portrait} alt="Portrait of Chris Strolia-Davis" className="owner-portrait" />
+      <p className="owner-bio">
+        Chris has been developing high class, enterprise level, secure, efficient, scalable software for over two
+        decades. In that time, he has had the opportunity to work with numerous different technologies in various large
+        organizations. This has brought him a plethora of experience, not only with these tools and technologies, but
+        also with various different types of people, environments and challenges associated with high quality,
+        enterprise level development. As a result, he has learned to adapt quickly to changing environments, and more
+        importantly, to work on elevating teamwork and team building within those areas as this has always had the most
+        dramatic and long lasting positive effects in all circumstances. Chris regularly mentors other developers,
+        helping them to more easily understand complex systems and processes, but also to understand why these systems
+        and processes are in place and how they benefit the team and the organization. Chris is focused on continuous
+        improvement, not only for himself, but for the teams and organizations in which he works. While Chris has
+        learned that technologies come and go, and he can quickly adapt to them as they do, he has maintained a focus on
+        Javascript and SQL based technologies for the bulk of his career and has a keen understanding of these
+        technologies above all others.
+      </p>
+    </>
+  );
+}

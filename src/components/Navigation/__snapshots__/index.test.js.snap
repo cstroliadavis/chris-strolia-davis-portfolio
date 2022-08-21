@@ -3,7 +3,7 @@
 exports[`Navigation matches snapshot 1`] = `
 <DocumentFragment>
   <nav
-    class="nav-bar"
+    class="nav-bar "
   >
     <div
       class="portfolio-owner"

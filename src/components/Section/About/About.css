@@ -1,0 +1,12 @@
+.section.about .owner-portrait {
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.section.about .owner-bio {
+    font-family: "Times-Roman", "Times New Roman", "Courier", "Courier New", serif;
+    font-size: 16pt;
+    padding: 20px;
+    text-align: justify;
+    text-justify: inter-character;
+}

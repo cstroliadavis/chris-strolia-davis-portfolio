@@ -4,7 +4,7 @@ exports[`Header matches snapshot 1`] = `
 <DocumentFragment>
   <header>
     <nav
-      class="nav-bar"
+      class="nav-bar "
     >
       <div
         class="portfolio-owner"

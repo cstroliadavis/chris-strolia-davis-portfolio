@@ -1,6 +1,7 @@
 import { useState } from "react";
 import './App.css';
 import Header from './components/Header';
+import Section from './components/Section';
 import { toObjectArray } from "./utils/object-helpers";
 
 const sectionData = toObjectArray([
@@ -17,9 +18,7 @@ function App() {
   return (
     <div className="App">
       <Header {...{currentSection, setCurrentSection, sections}}/>
-      <main>
-        { currentSection.title }
-      </main>
+      <Section currentSection={currentSection} />
       <footer>Footer</footer>
     </div>
   );
