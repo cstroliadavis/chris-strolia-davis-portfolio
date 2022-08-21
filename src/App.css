@@ -86,6 +86,10 @@ body {
   background-color: #185152;
 }
 
+.menu-items > ul > li.selected {
+  background-color: #1a777c;
+}
+
 .menu-items > ul > li > a {
   color: white;
   display: block;

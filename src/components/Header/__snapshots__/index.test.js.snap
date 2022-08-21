@@ -28,7 +28,9 @@ exports[`Header matches snapshot 1`] = `
         class="menu-items"
       >
         <ul>
-          <li>
+          <li
+            class="selected"
+          >
             <a
               href="#"
             >
@@ -37,23 +39,9 @@ exports[`Header matches snapshot 1`] = `
           </li>
           <li>
             <a
-              href="#Portfolio"
+              href="#Portfolia"
             >
               Portfolio
-            </a>
-          </li>
-          <li>
-            <a
-              href="#Contact"
-            >
-              Contact
-            </a>
-          </li>
-          <li>
-            <a
-              href="#Resume"
-            >
-              Résumé
             </a>
           </li>
         </ul>

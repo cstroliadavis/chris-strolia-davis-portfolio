@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation matches snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="nav-bar"
+  >
+    <div
+      class="portfolio-owner"
+    >
+      Chris Strolia-Davis
+    </div>
+    <div
+      class="view-nav-toggle"
+    >
+      <span
+        class="line"
+      />
+      <span
+        class="line"
+      />
+      <span
+        class="line"
+      />
+    </div>
+    <div
+      class="menu-items"
+    >
+      <ul>
+        <li
+          class="selected"
+        >
+          <a
+            href="#"
+          >
+            About me
+          </a>
+        </li>
+        <li>
+          <a
+            href="#Profile"
+          >
+            Profile
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</DocumentFragment>
+`;
