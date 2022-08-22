@@ -1,0 +1,44 @@
+.section.contact {
+    background-color: #98c4c5;
+}
+
+.section.contact > .container {
+    margin: auto;
+    width: 400px;
+    text-align: left;
+}
+
+.section.contact .name,
+.section.contact .email,
+.section.contact .message {
+    margin: 1rem;
+    width: 100%;
+}
+
+.section.contact input,
+.section.contact textarea {
+    width: 100%;
+}
+
+.section.contact .error {
+    color: red;
+    display: none;
+}
+
+.section.contact .error.show {
+    display: block;
+}
+
+.section.contact .message-sent {
+    display: none;
+    text-align: center;
+    color: darkgreen;
+}
+
+.section.contact .message-sent.show {
+    display: block;
+}
+
+.section.contact #contact-form button[type="submit"] {
+
+}
