@@ -4,8 +4,8 @@ export default function Resume() {
   return (
     <div className="container">
       <h1>Résumé</h1>
-      <a href="/Christopher-Strolia-Davis-Resume-online.pdf" className="download">
-        <img src="/9-2-resume-picture.png" alt="Chris Strolia-Davis Résumé"/>
+      <a href="./Christopher-Strolia-Davis-Resume-online.pdf" className="download">
+        <img src="./9-2-resume-picture.png" alt="Chris Strolia-Davis Résumé"/>
       </a>
       <h2>Proficiencies</h2>
       <div className="proficiencies">
