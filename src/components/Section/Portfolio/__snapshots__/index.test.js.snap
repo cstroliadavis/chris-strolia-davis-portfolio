@@ -103,6 +103,7 @@ exports[`Portfolio shows a spinner while it waits 1`] = `
     class="container"
   >
     <img
+      alt="Loading"
       src="loading-gif.gif"
     />
   </div>

@@ -1,0 +1,31 @@
+footer {
+    align-items: center;
+    background-color: #556f70;
+    bottom: 0;
+    flex-direction: column;
+    height: var(--footer-height);
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+}
+
+footer > .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 50px;
+    margin: 10px auto auto;
+    max-width: 200px
+}
+
+footer > .container a {
+    background-color: white;
+    display: block;
+    max-height: 40px;
+    max-width: 40px;
+}
+
+footer > .container a > img {
+    height: 36px;
+    margin: 2px auto auto;
+    width: 36px;
+}
