@@ -1,0 +1,16 @@
+.section.resume .download {
+    border:1px solid black;
+    display: block;
+    margin: auto;
+    max-width: 300px;
+}
+
+.section.resume .download > img {
+    max-width: 100%;
+}
+
+.section.resume .proficiencies {
+    margin: auto;
+    max-width: 800px;
+    text-align: left;
+}
