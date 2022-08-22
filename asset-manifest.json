@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chris-strolia-davis-portfolio/static/css/main.daf49faa.css",
-    "main.js": "/chris-strolia-davis-portfolio/static/js/main.0a31992d.js",
+    "main.js": "/chris-strolia-davis-portfolio/static/js/main.4c46c097.js",
     "static/js/997.5a06b6b0.chunk.js": "/chris-strolia-davis-portfolio/static/js/997.5a06b6b0.chunk.js",
     "static/js/787.879533ec.chunk.js": "/chris-strolia-davis-portfolio/static/js/787.879533ec.chunk.js",
     "static/media/loading-gif.gif": "/chris-strolia-davis-portfolio/static/media/loading-gif.cdb844278625a371c73c.gif",
@@ -10,11 +10,11 @@
     "static/media/Medium-Symbol-Black-RGB@1x.png": "/chris-strolia-davis-portfolio/static/media/Medium-Symbol-Black-RGB@1x.0898429ed836a5881cee.png",
     "index.html": "/chris-strolia-davis-portfolio/index.html",
     "main.daf49faa.css.map": "/chris-strolia-davis-portfolio/static/css/main.daf49faa.css.map",
-    "main.0a31992d.js.map": "/chris-strolia-davis-portfolio/static/js/main.0a31992d.js.map",
+    "main.4c46c097.js.map": "/chris-strolia-davis-portfolio/static/js/main.4c46c097.js.map",
     "787.879533ec.chunk.js.map": "/chris-strolia-davis-portfolio/static/js/787.879533ec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.daf49faa.css",
-    "static/js/main.0a31992d.js"
+    "static/js/main.4c46c097.js"
   ]
 }
